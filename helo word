@@ -1,0 +1,23 @@
+<template>
+  <div class="example">{{ msg }}</div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      msg: 'Olá mundo!'
+    }
+  }
+}
+</script>
+
+<style>
+.example {
+  color: red;
+}
+</style>
+
+<custom1>
+  Isso poderia ser, ex.: documentação do componente.
+</custom1>
